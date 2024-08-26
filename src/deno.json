@@ -11,5 +11,13 @@
     "types": [
       "lume/types.ts"
     ]
+  },
+  "deploy": {
+    "project": "88db103f-3bcf-46f6-9d21-39a66eab5af8",
+    "exclude": [
+      "**/node_modules"
+    ],
+    "include": [],
+    "entrypoint": "index.ts"
   }
 }

@@ -9,6 +9,7 @@ const site = lume({
 
 
 site.copy("assets", ".")
+site.copy("pages", ".")
 site.use(sass())
 
 export default site
